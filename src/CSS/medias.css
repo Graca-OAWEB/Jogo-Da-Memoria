@@ -1,0 +1,198 @@
+@charset "UTF-8";
+
+
+/*Typical Device Brakepoints*/
+
+
+@media screen and (max-width: 480px) and (orientation: portrait) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+      display: flex;
+        width: 75vw;
+        height: 90vh;
+    }
+
+    .game{
+        width: 70vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap:  0.5px;
+        column-gap:  0.5px;
+    }
+
+    .item {
+        width: 60px;
+        height: 60px;
+        font-size: 2.5em;
+    }
+
+    .reset{
+width: 60vw;
+    }
+}
+
+/*#LANDSCAPE max-width: 768px*/
+@media screen and (max-width: 768px) and (orientation: landscape) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 75vw;
+        height: 90vh;
+    }
+
+    .game{
+        width: 70vw;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        row-gap:  0.5px;
+        column-gap:  0.5px;
+    }
+
+    .item {
+        width: 60px;
+        height: 60px;
+        font-size: 2.5em;
+    }
+
+    .reset{
+        width: 60vw;
+            }
+}
+
+/*===================================== 📔 TABLETS ==========================================*/
+/*#PORTRAIT  min-width: 834px and max-width: 1023px*/
+
+@media screen and (min-width: 834px) and (max-width: 1023px) and (orientation: portrait) {
+
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 90vw;
+    }
+
+    .reset{
+        width: 50vw;
+            }
+
+}
+
+/*#LANDSCAPE min-width: 1024px and max-width: 1279px*/
+
+@media (min-width: 1024px) and (max-width: 1279px) and (orientation: landscape) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 90vw;
+    }
+    .reset{
+        width: 40vw;
+            }
+}
+
+/*===================================== 💻 LAPTOP ==========================================*/
+/*#SMALL min-width: 1280px and max-width: 1366px*/
+
+@media screen and (min-width: 1280px) and (max-width: 1366px) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 80vw;
+    }
+
+
+    .reset{
+        width: 30vw;
+            }
+}
+
+/*#LARGE  min-width: 1367px and max-width: 1919px*/
+
+@media screen and (min-width: 1367px) and (max-width: 1919px) {
+
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 80vw;
+    }
+
+    .reset{
+        width: 24vw;
+            }
+
+}
+
+/*================================= 🖥 DESKTOP  =======================================*/
+
+/*#PORTRAIT - min-width: 1920px*/
+
+@media screen and (min-width: 1920px) and (orientation: portrait) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 60vw;
+    }
+
+    .reset{
+        width: 20vw;
+            }
+}
+
+/*#LANDSCAPE - min-width: 1920px*/
+
+@media screen and (min-width: 1920px) and (orientation: landscape) {
+
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .container {
+        width: 60rem;
+    }
+    .reset{
+        width: 18vw;
+            }
+}
+
+/*================================= DESKTOP EXTRA LARGE SCRENS  =======================================*/
