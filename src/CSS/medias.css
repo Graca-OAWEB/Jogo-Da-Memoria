@@ -25,7 +25,7 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-       grid: 1rem;
+        grid: 1rem;
     }
 
     .item {
@@ -63,9 +63,9 @@
         grid-gap: 0.5rem;
     }
 
-        .item {
-            width: 100%;
-            height: 100%;
+    .item {
+        width: 100%;
+        height: 100%;
         font-size: 4em;
     }
 
@@ -83,24 +83,27 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        min-height:100vh;
+        min-height: 100vh;
     }
 
     .container {
         width: 90vw;
     }
+
     .game {
         width: 60vw;
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-gap: 0.5rem;}
+        grid-gap: 0.5rem;
+    }
 
-        .item {
-            width: 100%;
-            height: 100%;
+    .item {
+        width: 100%;
+        height: 100%;
         font-size: 4em;
     }
+
     .reset {
         width: 60vw;
     }
@@ -115,7 +118,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height:100vh;
+        height: 100vh;
     }
 
     .container {
@@ -129,13 +132,15 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-gap: 0.5rem;}
+        grid-gap: 0.5rem;
+    }
 
-        .item {
-            width: 100%;
-            height: 100%;
+    .item {
+        width: 100%;
+        height: 100%;
         font-size: 3.5em;
     }
+
     .reset {
         width: 40vw;
     }
@@ -150,7 +155,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height:100vh;
+        height: 100vh;
     }
 
     .container {
@@ -164,13 +169,15 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-gap: 0.5rem;}
+        grid-gap: 0.5rem;
+    }
 
-        .item {
-            width: 100%;
-            height: 100%;
+    .item {
+        width: 100%;
+        height: 100%;
         font-size: 3.5em;
     }
+
     .reset {
         width: 30vw;
     }
@@ -185,7 +192,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height:100vh;
+        height: 100vh;
     }
 
 
@@ -200,13 +207,15 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-gap: 0.5rem;}
+        grid-gap: 0.5rem;
+    }
 
-        .item {
-            width: 100%;
-            height: 100%;
+    .item {
+        width: 100%;
+        height: 100%;
         font-size: 3.5em;
     }
+
     .reset {
         width: 40vw;
     }
@@ -223,7 +232,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height:100vh;
+        height: 100vh;
     }
 
     .container {
@@ -243,7 +252,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height:100vh;
+        height: 100vh;
     }
 
     .container {
